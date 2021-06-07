@@ -1,0 +1,14 @@
+Inicio Inicio pseudocodigoEjercicio8
+
+	variable numeroMultiploCinco
+	Variable salir
+	
+	Mientras( salir != S ) hacer
+		numeroMultiploCinco = funcionAleatoria*5
+		
+		Escribir "El programa generó: " numeroMultiploCinco
+		Escribir "Generar otro numero, presiona cualquier otro teclado"
+		Escribir "Salir, presione S"
+		Leer salir
+	FinRepetir
+Fin
